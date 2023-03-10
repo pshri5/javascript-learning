@@ -19,3 +19,20 @@ const currency = "INR";
 currency = 'USD';
 console.log(language);
 console.log(currency);
+
+//coding challenge #1
+const massMark;
+const massJohn;
+const heightMark;
+const heightJohn;
+// bmi formula setup
+const bmiMark = massMark / heightMark ** 2;
+const bmiJohn = massJohn / heightJohn ** 2;
+
+console.log(bmiMark);
+console.log(bmiJohn);
+//Comparing the bmi
+
+const markHigherBMI = bmiMark > bmiJohn;
+console.log(markHigherBMI);
+
