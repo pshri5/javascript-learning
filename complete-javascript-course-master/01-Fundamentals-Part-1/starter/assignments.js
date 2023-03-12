@@ -36,3 +36,15 @@ console.log(bmiJohn);
 const markHigherBMI = bmiMark > bmiJohn;
 console.log(markHigherBMI);
 
+// if/else statements assignment
+const avg = 33;
+const diff;
+if (population > avg) {
+    console.log(`India's population is above average`);
+} else {
+    diff = avg - population;
+    console.log(`India's population is ${diff} million below average`);
+
+}
+
+// coding challenge #2
