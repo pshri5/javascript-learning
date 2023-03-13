@@ -3,3 +3,12 @@
 
 //functions are piece of code that can be reused in a program
 
+function describeCountry(country, population, capitalCity) {
+    console.log(`${country} has ${population} million people and it's capital city is ${capitalCity}`);
+}
+
+describeCountry('Finland', 6, 'Helsinki');
+
+//coding challenge on functions
+
+
